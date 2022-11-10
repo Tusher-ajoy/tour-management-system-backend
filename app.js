@@ -10,7 +10,7 @@ app.use(cors());
 const packageRoute = require("./routes/package.route");
 
 app.get("/", (req, res) => {
-  res.send("Route is working YaY!!");
+  res.send("Route is working!!");
 });
 
 //posting to db
